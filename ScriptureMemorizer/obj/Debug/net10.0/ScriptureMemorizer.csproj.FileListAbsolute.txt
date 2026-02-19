@@ -1,0 +1,15 @@
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\bin\Debug\net10.0\ScriptureMemorizer.exe
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\bin\Debug\net10.0\ScriptureMemorizer.deps.json
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\bin\Debug\net10.0\ScriptureMemorizer.runtimeconfig.json
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\bin\Debug\net10.0\ScriptureMemorizer.dll
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\bin\Debug\net10.0\ScriptureMemorizer.pdb
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.AssemblyInfoInputs.cache
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.AssemblyInfo.cs
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.csproj.CoreCompileInputs.cache
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.sourcelink.json
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.dll
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\obj\Debug\net10.0\refint\ScriptureMemorizer.dll
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.pdb
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.genruntimeconfig.cache
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week03\ScriptureMemorizer\obj\Debug\net10.0\ref\ScriptureMemorizer.dll

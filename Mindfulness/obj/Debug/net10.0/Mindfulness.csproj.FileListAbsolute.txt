@@ -1,0 +1,15 @@
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\bin\Debug\net10.0\Mindfulness.exe
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\bin\Debug\net10.0\Mindfulness.deps.json
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\bin\Debug\net10.0\Mindfulness.runtimeconfig.json
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\bin\Debug\net10.0\Mindfulness.dll
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\bin\Debug\net10.0\Mindfulness.pdb
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\obj\Debug\net10.0\Mindfulness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\obj\Debug\net10.0\Mindfulness.AssemblyInfoInputs.cache
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\obj\Debug\net10.0\Mindfulness.AssemblyInfo.cs
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\obj\Debug\net10.0\Mindfulness.csproj.CoreCompileInputs.cache
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\obj\Debug\net10.0\Mindfulness.sourcelink.json
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\obj\Debug\net10.0\Mindfulness.dll
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\obj\Debug\net10.0\refint\Mindfulness.dll
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\obj\Debug\net10.0\Mindfulness.pdb
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\obj\Debug\net10.0\Mindfulness.genruntimeconfig.cache
+C:\Users\brand\OneDrive\Documents\BYU Pathway\cse210\week05\Mindfulness\obj\Debug\net10.0\ref\Mindfulness.dll
