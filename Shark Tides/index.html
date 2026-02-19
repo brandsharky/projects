@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Brandon Arroyo">
+  <meta name="description" content="A beginner-friendly educational website about the amazing creatures that are sharks.">
+  <title>Home | Shark Tides</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/index.js" defer></script>
+  <link rel="icon" href="images/logo.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo" loading="lazy">
+        <h1>Shark Tides</h1>
+      </div>
+
+      <button id="hamburger">
+        ☰
+      </button>
+
+      <ul id="navLinks" class="nav-links">
+        <li><a class="current-page" href="index.html">Home</a></li>
+        <li><a href="anatomy.html">Anatomy</a></li>
+        <li><a href="species.html">Species</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="overview">
+      <picture>
+        <source media="(min-width: 1000px)" srcset="images/gw-large.webp">
+        <source media="(min-width: 700px)" srcset="images/gw-medium.webp">
+        <img src="images/gw-small.webp" alt="Great White Shark" loading="lazy">
+      </picture>
+
+      <div class="species name">
+        <h2>Carcharodon carcharias</h2>
+        <p>
+          Great White Shark
+        </p>
+      </div>
+
+      <div class="species generals">
+        <h2>General</h2>
+
+        <div class="species-stats">
+          <span class="label">Status</span><span class="value">Vulnerable</span>
+          <span class="label">Weight</span><span class="value">4000-7000 lbs</span>
+          <span class="label">Size</span><span class="value">16-20 ft</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <h2>Masters of the Ocean</h2>
+      <p>
+        Welcome to Shark Tides! The ocean is vast, dark, and unexplored-and at its apex swims the shark. Sharks have ruled the Earth's oceans for over 400 million years, long before dinosaurs walked the land. Sleek, powerful, and ancient, sharks are perfectly engineered survivors. Often misunderstood and feared, these incredible predators are among the most advanced and important animals in marine ecosystems. Dive in and explore the science, species, and secrets behind one of the ocean's greatest apex predators.
+      </p>
+    </section>
+
+    <section class="cards">
+      <a class="card" href="anatomy.html">
+        <div class="title">
+          <h3>Anatomy</h3>
+        </div>
+        <div class="card-content">
+          <p>
+          Explore the powerful design of a shark — from razor-sharp teeth to electroreceptive sensors that detect hidden prey.
+        </p>
+        </div>
+      </a>
+
+      <a class="card" href="species.html">
+        <div class="title">
+          <h3>Species</h3>
+        </div>
+        <div class="card-content">
+          <p>
+            Meet the incredible diversity of sharks, from the massive whale shark to the lightning-fast mako.
+          </p>
+        </div>
+      </a>
+
+      <a class="card" href="facts.html">
+        <div class="title">
+          <h3>Facts</h3>
+        </div>
+        <div class="card-content">
+          <p>
+            Think you know sharks? Discover surprising truths that challenge myths and reveal ocean secrets.
+          </p>
+        </div>
+      </a>
+
+      <a class="card" href="about.html">
+        <div class="title">
+          <h3>About</h3>
+        </div>
+        <div class="card-content">
+          <p>
+            Learn the purpose behind this project and the research that powers every page.
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <section class="conservation">
+      <h2>Conservation</h2>
+
+      <p>
+        Many shark species are threatened due to overfishing, finning, and habitat loss. Conservation efforts aim to protect these vital animals and restore balance to the oceans.
+      </p>
+
+      <a href="https://www.sharkconservationfund.org/" target="_blank" rel="noopener noreferrer">Learn More</a>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>
+      &copy; <span id="currentYear"></span> Shark Tides | Created by Brandon Arroyo | Made with love for the ocean
+    </p>
+
+    <nav id="footerNav">
+      <a href="index.html">Home</a>
+      <a href="anatomy.html">Anatomy</a>
+      <a href="species.html">Species</a>
+      <a href="facts.html">Facts</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <p>
+      Last Updated: <span id="lastModified"></span><br>
+    </p>
+
+    <p>
+      Did you know? <span id="footerFact"></span>
+    </p>
+  </footer>
+</body>
+</html>

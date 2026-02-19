@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Brandon Arroyo">
+  <meta name="description" content="A beginner-friendly educational website about the amazing creatures that are sharks.">
+  <title>Anatomy | Shark Tides</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/anatomy.js" defer></script>
+  <link rel="icon" href="images/logo.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo" loading="lazy">
+        <h1>Shark Tides</h1>
+      </div>
+
+      <button id="hamburger">
+        ☰
+      </button>
+
+      <ul id="navLinks" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="current-page" href="anatomy.html">Anatomy</a></li>
+        <li><a href="species.html">Species</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="overview">
+      <picture>
+        <source media="(min-width: 1000px)" srcset="images/whale-large.webp">
+        <source media="(min-width: 500px)" srcset="images/whale-medium.webp">
+        <img src="images/whale-small.webp" alt="Whale Shark" >
+      </picture>
+
+      <div class="species name">
+        <h2>Rhincodon typus</h2>
+        <p>
+          Whale Shark
+        </p>
+      </div>
+
+      <div class="species generals">
+        <h2>General</h2>
+
+        <div class="species-stats">
+          <span class="label">Status</span><span class="value">Endangered</span>
+          <span class="label">Weight</span><span class="value">About 11 tons</span>
+          <span class="label">Size</span><span class="value">Up to 60 ft</span>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="anatomy">
+      <div id="fins" class="anatomy-part">
+        <div class="anatomy-text">
+          <h3>Fins</h3>
+          <p>
+            Sharks use their fins like a pilot uses the wings of a plane. The dorsal fin on top provides stability to keep the shark from rolling, while the pectoral fins on the sides help with steering and lifting. Unlike most bony fish, sharks can’t swim backward or "brake" easily, so they rely on their powerful caudal fin (the tail) to push them forward through the water with incredible speed.
+          </p>
+        </div>
+
+        <div class="anatomy-img">
+          <img src="images/fins.webp" alt="Shark Fins" loading="lazy">
+        </div>
+      </div>
+
+
+      <div id="teeth" class="anatomy-part">
+        <div class="anatomy-text">
+          <h3>Teeth</h3>
+          <p>
+            A shark’s mouth is essentially a conveyor belt of teeth! Instead of having just one row of teeth like humans, sharks have multiple rows. When one tooth falls out or gets dull, a new, sharp one moves forward from behind to take its place. Depending on the species, a shark can go through thousands of teeth in its lifetime, ensuring they always have the right tools for their specific diet.
+          </p>
+        </div>
+
+        <div class="anatomy-img">
+          <img src="images/tooth.webp" alt="Shark Tooth" loading="lazy">
+        </div>
+      </div>
+
+
+      <div id="gills" class="anatomy-part">
+        <div class="anatomy-text">
+          <h3>Gills</h3>
+          <p>
+            While humans use lungs to breathe air, sharks use gills to take oxygen directly from the water. As a shark swims, water enters its mouth and passes over delicate, blood-rich gill filaments located in the slits on the sides of its head. These filaments pull oxygen out of the water and release carbon dioxide. Interestingly, many sharks must keep swimming to keep water flowing over their gills, which means they are effectively breathing and moving at the same time!
+          </p>
+        </div>
+
+        <div class="anatomy-img">
+          <img src="images/gills.webp" alt="Shark Gills" loading="lazy">
+        </div>
+      </div>
+
+
+      <div id="jaws" class="anatomy-part">
+        <div class="anatomy-text">
+          <h3>Jaws</h3>
+          <p>
+            Sharks have a unique skeletal trick: their jaws aren't fused to their skull. Because their skeleton is made of flexible cartilage (the same stuff in your nose and ears), they can extend their jaws forward to grab prey more effectively. This "protrusible jaw" allows them to take much larger bites and creates a powerful suction that helps pull food into their mouths.
+          </p>
+        </div>
+
+        <div class="anatomy-img">
+          <img src="images/jaws.webp" alt="Shark Jaws" loading="lazy">
+        </div>
+      </div>
+
+
+      <div id="nose" class="anatomy-part">
+        <div class="anatomy-text">
+          <h3>Nose and Smell</h3>
+          <p>
+            Sharks are often called "swimming noses." They have an incredible sense of smell that can detect a single drop of scent in an Olympic-sized swimming pool. Water flows into their nares (nostrils) as they swim, passing over sensitive folded skin that sends signals to the brain. This helps them track down food or find a mate from miles away, even in dark or murky water.
+          </p>
+        </div>
+
+        <div class="anatomy-img">
+          <img src="images/nose.webp" alt="Shark Nose" loading="lazy">
+        </div>
+      </div>
+
+
+      <div id="lateral" class="anatomy-part">
+        <div class="anatomy-text">
+          <h3>Lateral Line</h3>
+          <p>
+            The lateral line is like a shark’s "distant touch" sensor. It is a long canal running down the side of the shark's body filled with tiny hairs that detect vibrations and pressure changes in the water. This allows a shark to feel the movements of nearby fish even if it can't see them, helping them navigate and hunt with precision in total darkness.
+          </p>
+        </div>
+
+        <div class="anatomy-img">
+          <img src="images/lateral_line.webp" alt="" loading="lazy">
+        </div>
+      </div>
+
+
+      <div id="lorenzini" class="anatomy-part">
+        <div class="anatomy-text">
+          <h3>Ampullae of Lorenzini</h3>
+          <p>
+            This is a shark's "superpower." These are tiny, jelly-filled pores located mostly around the shark's snout. They act as electroreceptors, allowing the shark to sense the tiny electrical fields produced by the muscles and heartbeats of other living creatures. This sense is so sharp that a shark can find a flatfish buried completely under the sand just by "feeling" its heartbeat.
+          </p>
+        </div>
+
+        <div class="anatomy-img">
+          <img src="images/lorenzini.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="wdyt">
+      <h3>QUESTION: What is more dangerous to people-a shark or a bee?</h3>
+
+      <p>
+        ANSWER: A bee. More people are killed by bee stings than by sharks. Every year, hundreds of millions of people go swimming in the oceans of the world but only about <em>6 people</em> are reported killed each year by sharks. When you consider that 50,000 people are killed every year in automobile accidents in the United States alone, the danger of shark attack seems very small.
+      </p>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>
+      &copy; <span id="currentYear"></span> Shark Tides | Created by Brandon Arroyo | Made with love for the ocean
+    </p>
+
+    <nav id="footerNav">
+      <a href="index.html">Home</a>
+      <a href="anatomy.html">Anatomy</a>
+      <a href="species.html">Species</a>
+      <a href="facts.html">Facts</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <p>
+      Last Updated: <span id="lastModified"></span><br>
+    </p>
+
+    <p>
+      Did you know? <span id="footerFact"></span>
+    </p>
+  </footer>
+</body>
+</html>

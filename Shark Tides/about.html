@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Brandon Arroyo">
+  <meta name="description" content="A beginner-friendly educational website about the amazing creatures that are sharks.">
+  <title>About | Shark Tides</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/about.js" defer></script>
+  <link rel="icon" href="images/logo.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo" loading="lazy">
+        <h1>Shark Tides</h1>
+      </div>
+
+      <button id="hamburger">
+        ☰
+      </button>
+
+      <ul id="navLinks" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="anatomy.html">Anatomy</a></li>
+        <li><a href="species.html">Species</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a class="current-page" href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+
+      <p>
+        Hello! My name is Brandon. I am the creator of this website. Ever since I was young I have been fascinated by sharks. This website was created to provide a clear, engaging introduction to the world of sharks. Sharks are among the oldest and most important animals in Earth’s oceans, yet they are often misunderstood. The goal of this project is to present accurate, beginner-friendly information about shark anatomy, species diversity, and fascinating scientific facts in a responsive website. Every section is designed to help visitors build a deeper understanding of how sharks live, hunt, and survive, while highlighting their role in maintaining healthy ocean ecosystems. By combining research, thoughtful design, and interactive features, this site aims to make learning about sharks both accessible and memorable.
+      </p>
+
+      <a href="sources.html" target="_blank" rel="noopener noreferrer">View Sources</a>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>
+      &copy; <span id="currentYear"></span> Shark Tides | Created by Brandon Arroyo | Made with love for the ocean
+    </p>
+
+    <nav id="footerNav">
+      <a href="index.html">Home</a>
+      <a href="anatomy.html">Anatomy</a>
+      <a href="species.html">Species</a>
+      <a href="facts.html">Facts</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <p>
+      Last Updated: <span id="lastModified"></span><br>
+    </p>
+
+    <p>
+      Did you know? <span id="footerFact"></span>
+    </p>
+  </footer>
+</body>
+</html>

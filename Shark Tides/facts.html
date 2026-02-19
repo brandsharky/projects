@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Brandon Arroyo">
+  <meta name="description" content="A beginner-friendly educational website about the amazing creatures that are sharks.">
+  <title>Facts | Shark Tides</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/facts.js" defer></script>
+  <link rel="icon" href="images/logo.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo" loading="lazy">
+        <h1>Shark Tides</h1>
+      </div>
+
+      <button id="hamburger">
+        ☰
+      </button>
+
+      <ul id="navLinks" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="anatomy.html">Anatomy</a></li>
+        <li><a href="species.html">Species</a></li>
+        <li><a class="current-page" href="facts.html">Facts</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section id="quiz">
+      <form method="GET" action="review.html">
+
+
+        <h2>Test Your Shark Knowledge</h2>
+
+
+        <div class="form-field">
+          <p>1. What is a shark's skeleton made of?</p>
+          <label><input type="radio" name="q1" value="a" required> Bone</label>
+          <label><input type="radio" name="q1" value="b"> Cartilage</label>
+          <label><input type="radio" name="q1" value="c"> Muscle</label>
+          <label><input type="radio" name="q1" value="d"> Plankton</label>
+        </div>
+
+
+        <div class="form-field">
+          <label for="q2">2. What is the largest shark species?</label>
+          <input id="q2" type="text" name="q2" required placeholder="Type your answer">
+        </div>
+
+
+        <div class="form-field">
+          <label for="q3">3. What do Whale Shark primarily eat?</label>
+          <select id="q3" name="q3" required>
+            <option disabled selected value="">Select an answer...</option>
+            <option value="predators">Large mammals</option>
+            <option value="filter">Plankton</option>
+            <option value="sharks">Other Sharks</option>
+            <option value="humans">Humans</option>
+            <option value="fish">Fish</option>
+            <option value="water">Water</option>
+          </select>
+        </div>
+
+
+        <div class="form-field">
+          <p>4. Which ability helps sharks detect prey?</p>
+          <label><input type="checkbox" name="q4" value="electroreception"> Electroreception</label>
+          <label><input type="checkbox" name="q4" value="infrared"> Infrared vision</label>
+          <label><input type="checkbox" name="q4" value="echolocation"> Echolocation</label>
+        </div>
+
+
+        <div class="form-field">
+          <p>5. Great White Sharks are considered what?</p>
+          <label><input type="radio" name="q5" value="apex" required> Apex predators</label>
+          <label><input type="radio" name="q5" value="herbivore"> Herbivores</label>
+          <label><input type="radio" name="q5" value="scavenger"> Scavengers</label>
+        </div>
+
+
+        <div class="form-field">
+          <input type="submit" value="Grade Quiz">
+        </div>
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>
+      &copy; <span id="currentYear"></span> Shark Tides | Created by Brandon Arroyo | Made with love for the ocean
+    </p>
+
+    <nav id="footerNav">
+      <a href="index.html">Home</a>
+      <a href="anatomy.html">Anatomy</a>
+      <a href="species.html">Species</a>
+      <a href="facts.html">Facts</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <p>
+      Last Updated: <span id="lastModified"></span><br>
+    </p>
+
+    <p>
+      Did you know? <span id="footerFact"></span>
+    </p>
+  </footer>
+</body>
+</html>
